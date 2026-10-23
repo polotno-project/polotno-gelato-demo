@@ -1,0 +1,23 @@
+{
+  "name": "polotno-gelato-demo-web",
+  "version": "1.0.0",
+  "description": "A 30 \u00d7 40 cm poster editor built with Polotno SDK that sends the print PDF to the Gelato API and shows where Gelato would print it for buyers in six countries, with price and delivery time.",
+  "dependencies": {
+    "mobx": "^7.0.6",
+    "mobx-react-lite": "^5.1.0",
+    "polotno": "^4.18.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5",
+    "vite": "^7"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "private": true
+}
